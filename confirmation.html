@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <div class="container-fluid header full-bg">
+    <div class="bg-top-layer"></div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Thanks for registered blablabla</h1>
+        <h3>This page will be redirect in</h3>
+      </div>
+    </div>
+  </div>
+  <!-- Start Footer section -->
+  <div class="container-fluid monitoring" id="footer">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <p class="text-right align-middle">
+          Contact Us
+          <a href="#"><img class="contact-img" src="assets/googleplus-logo.svg" /></a>
+          <a href="#"><img class="contact-img" src="assets/facebook-logo.svg" /></a>
+          <a href="#"><img class="contact-img" src="assets/twitter-logo-silhouette.svg" /></a>
+          <a href="#"><img class="contact-img" src="assets/linkedin-button.svg" /></a>
+          <a href="#"><img class="contact-img" src="assets/pinterest.svg" /></a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <!-- End of Footer section -->
+
+<!--Start scrolling effect script-->
+<script>
+
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 700);
+});
+
+</script>
+
+</body>
+</html>

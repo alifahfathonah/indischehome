@@ -1,0 +1,1 @@
+<html><body><?php echo "Thanks for joining with Indische Home.<br>However your account is not activated yet. Hence, please kindly to do a confirmation through this link: ". $activation_url . "<br><br>Thank You.<br><br>Sincerely Yours,<br>Indische Home";?></body></html>

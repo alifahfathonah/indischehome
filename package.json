@@ -1,0 +1,29 @@
+{
+  "name": "webeng-project",
+  "version": "1.0.0",
+  "description": "Website about cctv services.\r This project was made for final project of web engineering subject.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server",
+    "watch": "node-sass -o css scss -w",
+    "scss": "node-sass -o css scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeirash/webeng-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeirash/webeng-project/issues"
+  },
+  "homepage": "https://github.com/zeirash/webeng-project#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.5.0"
+  }
+}
